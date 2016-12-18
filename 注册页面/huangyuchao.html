@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title> 计算机1502 黄宇超</title>
+<style>
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family:"微软雅黑";
+	font-size:24px;
+}
+h1{
+	font-family:"宋体";
+}
+form{
+	width:300px;
+	margin:0 auto 0 auto;
+	font-size:12px;
+	color:#999;
+}
+td{
+	margin:5px 0 0 5px;
+	text-align:center;
+}
+.txt{
+	width:200px;
+	height:25px;
+	background-color:#CCCCFF;
+	border:#6666FF 1px solid;
+	color:yellow;
+	border-top:2px dotted #FFAACC;
+	border-bottom:2px double #AACCFF;
+}
+.but{
+	border:0px #93bee2 1px solid;
+	background-color:#3399CC;
+	cursor:hand;
+	font-style:normal;
+	color:red;
+}
+table{
+	border-collapse:collapse;
+}
+select{
+	height:25px;
+	width:200px;
+	font-size:16px;
+	background-color:#CCCCFF;
+	color:#0066FF;
+}
+option{
+	font-size:16px;
+}
+.bg_red{
+	background-color:red;
+	color:blue;
+}
+.bg_green{
+	background-color:green;
+	color:yellow;
+}
+.bg_blue{
+	background-color:blue;
+	color:red;
+}
+</style>
+</head>
+<body>
+<h1 align=center>用户注册</h1>
+<center>
+<table border="1">
+<form>
+<tr>
+<td>姓&nbsp;&nbsp;名:</td>
+<td>
+<input type="text" class="txt" size="12" maxlength="20" name="username" />
+</td>
+</tr>
+<tr>
+<td>
+性&nbsp;&nbsp;别:
+</td>
+<td>
+<input type="radio" value="male" />男
+<input type="radio" value="female" />女
+</td>
+</tr>
+<tr>
+<td>
+年&nbsp;&nbsp;龄:
+</td>
+<td>
+<input type="text" class="txt" name="age" />
+</td>
+</tr>
+<tr>
+<td>
+联系电话:
+</td>
+<td>
+<input type="text" class="txt" name="tel" />
+</td>
+</tr>
+<tr>
+<td>
+电子邮件:
+</td>
+<td>
+<input type="text" class="txt" name="email" />
+</td>
+</tr>
+<tr>
+<td>
+联系地址:
+</td>
+<td>
+<input type="text" class="txt" name="address" />
+</td>
+</tr>
+<tr>
+<td>选择学院:</td>
+<td>
+<select name="school">
+	<option class="bg_blue">信息工程学院</option>
+	<option class="bg_red">人文学院</option>
+	<option class="bg_green">机械工程学院</option>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<input type="submit" name="submit" value="提交" class="but" />
+&nbsp;&nbsp;
+<input type="reset" name="reset" value="清除" class="but" />
+</td>
+</tr>
+</form>
+</table>
+</body>
